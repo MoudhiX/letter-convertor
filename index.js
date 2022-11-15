@@ -16,7 +16,7 @@ function arabicToEnglish(str) {
 module.exports.arabicToEnglish =  arabicToEnglish ;
 
 
-
+var lettersUnicode = [] ;
 lettersUnicode = [
     {
       "asciiAr": 32,
