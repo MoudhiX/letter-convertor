@@ -1,4 +1,4 @@
-export function arabicToEnglish(str: string) {
+export default function arabicToEnglish(str: string) {
     let result ;
     let strinVal = "";
     var charArray = str.split('');
