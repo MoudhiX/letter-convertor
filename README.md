@@ -10,9 +10,15 @@ Convert the arabic text to an english letters.
 
 # How to use is ?
 
-import  arabicToEnglish  from 'node_modules/letter-convertor/lib/index';
 
--- 
-  result = arabicToEnglish("السلام عليكم ورحمة الله وبركاته") ; 
-    result >> ALSLAM ALYKM WRHMH ALLH WBRKATH
+```typescript 
+import arabicToEnglish from 'node_modules/letter-convertor/lib/index';
+```
+
+# Usage 
+
+```typescript 
+result = arabicToEnglish("السلام عليكم ورحمة الله وبركاته") ;
+```
+   > result >> ALSLAM ALYKM WRHMH ALLH WBRKATH
 
