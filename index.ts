@@ -1,4 +1,4 @@
-function arabicToEnglish(str) {
+export function arabicToEnglish(str: string) {
     let result ;
     let strinVal = "";
     var charArray = str.split('');
@@ -15,8 +15,21 @@ function arabicToEnglish(str) {
 
 module.exports.arabicToEnglish =  arabicToEnglish ;
 
+interface User {
+  asciiAr: number,
+  charAr: string,
+  charEn: string,
+  asciiEn: string
+}
 
-var lettersUnicode = [] ;
+var lettersUnicode = [
+  {
+    asciiAr: 0,
+    charAr: "",
+    charEn: "",
+    asciiEn: ""
+  }
+] ;
 lettersUnicode = [
     {
       "asciiAr": 32,
@@ -333,61 +346,61 @@ lettersUnicode = [
     {
           "asciiAr": 1632,
           "charAr": "٠",
-          "charEn": 0,
+          "charEn": "0",
           "asciiEn": ""
     },
     {
           "asciiAr": 1633,
           "charAr": "١",
-          "charEn": 1,
+          "charEn": "1",
           "asciiEn": ""
     },
     {
           "asciiAr": 1634,
           "charAr": "٢",
-          "charEn": 2,
+          "charEn": "2",
           "asciiEn": ""
     },
     {
           "asciiAr": 1635,
           "charAr": "٣",
-          "charEn": 3,
+          "charEn": "3",
           "asciiEn": ""
     },
     {
           "asciiAr": 1636,
           "charAr": "٤",
-          "charEn": 4,
+          "charEn": "4",
           "asciiEn": ""
     },
     {
           "asciiAr": 1637,
           "charAr": "٥",
-          "charEn": 5,
+          "charEn": "5",
           "asciiEn": ""
     },
     {
           "asciiAr": 1638,
           "charAr": "٦",
-          "charEn": 6,
+          "charEn": "6",
           "asciiEn": ""
     },
     {
           "asciiAr": 1639,
           "charAr": "٧",
-          "charEn": 7,
+          "charEn": "7",
           "asciiEn": ""
     },
     {
           "asciiAr": 1640,
           "charAr": "٨",
-          "charEn": 8,
+          "charEn": "8",
           "asciiEn": ""
     },
     {
           "asciiAr": 1641,
           "charAr": "٩",
-          "charEn": 9,
+          "charEn": "9",
           "asciiEn": ""
     }
        
