@@ -2,7 +2,8 @@
   "name": "letter-convertor",
   "version": "1.2.0",
   "description": "convert text with arabic letters to an english letter",
-  "main": "index.ts",
+  "main": "lib/index.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
