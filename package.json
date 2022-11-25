@@ -1,6 +1,6 @@
 {
   "name": "letter-convertor",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "convert text with arabic letters to an english letter",
   "main": "lib/index.ts",
   "types": "lib/index.d.ts",
@@ -38,6 +38,6 @@
     "typescript": "^4.9.3"
   },
   "files": [
-    "lib/index.js"
+    "lib/**/*"
   ]  
 }
