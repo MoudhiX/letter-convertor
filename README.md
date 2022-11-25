@@ -5,9 +5,15 @@ Convert the arabic text to an english letters.
 
 # Installation
 
-`npm i letter-convertor --save`
+`npm i letter-convertor`
 
 
 # How to use is ?
 
-import {letter-convertor} from "letter-convertor" ;
+import  arabicToEnglish  from 'node_modules/letter-convertor/lib/index';
+
+-- 
+
+ result = arabicToEnglish("السلام عليكم ورحمة الله وبركاته") ; 
+ result >> ALSLAM ALYKM WRHMH ALLH WBRKATH
+
