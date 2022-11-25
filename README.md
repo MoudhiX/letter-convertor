@@ -13,7 +13,6 @@ Convert the arabic text to an english letters.
 import  arabicToEnglish  from 'node_modules/letter-convertor/lib/index';
 
 -- 
-
- result = arabicToEnglish("السلام عليكم ورحمة الله وبركاته") ; 
- result >> ALSLAM ALYKM WRHMH ALLH WBRKATH
+result = arabicToEnglish("السلام عليكم ورحمة الله وبركاته") ; 
+result >> ALSLAM ALYKM WRHMH ALLH WBRKATH
 
