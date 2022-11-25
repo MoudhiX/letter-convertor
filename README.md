@@ -15,6 +15,9 @@ Convert the arabic text to an english letters.
 import arabicToEnglish from 'node_modules/letter-convertor/lib/index';
 ```
 
+```typescript 
 result = arabicToEnglish("السلام عليكم ورحمة الله وبركاته") ; 
-result >> ALSLAM ALYKM WRHMH ALLH WBRKATH
+
+```
+   result >> ALSLAM ALYKM WRHMH ALLH WBRKATH
 
