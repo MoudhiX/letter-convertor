@@ -13,9 +13,8 @@ export function arabicToEnglish(str: string) {
 
 
 
-module.exports.arabicToEnglish =  arabicToEnglish ;
 
-interface User {
+interface letters {
   asciiAr: number,
   charAr: string,
   charEn: string,
