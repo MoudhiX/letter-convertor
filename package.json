@@ -1,6 +1,6 @@
 {
   "name": "letter-convertor",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "convert text with arabic letters to an english letter",
   "main": "lib/index.ts",
   "types": "lib/index.d.ts",
